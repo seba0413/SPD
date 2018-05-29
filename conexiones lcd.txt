@@ -1,0 +1,11 @@
+CONEXIONES LCD
+
+gnd, v0  y rw --> gnd
+
+vcc y led(1) --> 5 v
+
+rs y e --> pines (los primeros dos parámetros que le paso a la funcion cuando creo el objeto LiquidCrystal)
+
+db4, db5, db6, db7 --> pines
+
+segundo led --> a una resistencia de 220 ohm y a gnd

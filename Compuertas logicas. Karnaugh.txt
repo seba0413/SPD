@@ -1,0 +1,23 @@
+Expresiones canonicas
+
+Expresiones que tienen en todos sus terminos todas las variables
+Hay dos tipos:
+1)Suma de productos
+
+ABC(negado) + A(negado)BC + AB(negado)C
+
+2)Producto de sumas
+
+La forma mas directa de ir a la expresion canonica es con una tabla de verdad para despues pasar al mapa de Karnaugh
+
+El mapa es una matriz que tiene n filas y n columnas dependiendo de las variables que tenga en la expresion simplificada
+
+En la matriz, agrupo las variables si tengo mas de dos. Por ejemplo, si tengo ABC, puedo agrupar AB en las columnas y C 
+en las filas. 
+Cuando pongo los valores de los campos de la matriz, los valores no tienen que ir creciendo uno por uno sino que tienen
+que cambiar de a un solo digito a la vez. 
+Por ejemplo: 00 - 01 - 11 - 10 
+
+Se tienen que agrupar los unos. Se agrupan los unos adyacentes, que quiere decier que cambia un solo valor entre ellos.
+La cantidad de unos que hay en cada grupo tiene que ser una potencia de 2. Siempre hay que tratar de hacer los grupos
+de la mayor cantidad de unos posibles.  
